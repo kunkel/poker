@@ -1,0 +1,41 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.canvas {
+	height: 100%; 
+}
+
+
+.table {
+	width: 80%;
+	height: 80%;
+	background-color: green;
+	border-radius: 50%;
+}
+
+.buttonextend {
+	width: 100%;
+}
+
+.bottomaligned {
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+}
+
+.form-control {
+	height: 30px;
+}
+
+.chatbox {
+	height: 100px;
+	width: 100%;
+	border: 1px solid;
+	background-color: #fff;
+	border-color: #ccc;
+}
