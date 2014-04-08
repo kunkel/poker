@@ -12,13 +12,16 @@ body {
 
 
 .table {
+	position: absolute;
+	left: 10%;
+	top: 5%;
 	width: 80%;
 	height: 80%;
-	background-color: green;
+	background-color: #ccc;
 	border-radius: 50%;
 }
 
-.buttonextend {
+.btnextend {
 	width: 100%;
 }
 
@@ -38,4 +41,62 @@ body {
 	border: 1px solid;
 	background-color: #fff;
 	border-color: #ccc;
+}
+
+.btnmargin {
+	margin-bottom: 15px;
+}
+
+.input-group-addon {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.pullleft {
+	position: absolute;
+	left: 5px;
+}
+
+.player {
+	height: 10%;
+	width: 14%;
+	border: 1px solid;
+	border-color: #ccc;
+	background-color: #fff;
+}
+
+#pos1 {
+	position: absolute;
+	top: 80%;
+	right: 43%;
+}
+
+#pos2 {
+	position: absolute;
+	top:55%;
+	left: 5%;
+}
+
+#pos3 {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+
+#pos4 {
+	position: absolute;
+	top: 2%;
+	left: 43%;
+}
+
+#pos5 {
+	position: absolute;
+	top: 25%;
+	right: 5%;
+}
+
+#pos6 {
+	position: absolute;
+	top: 55%;
+	right: 5%;
 }
