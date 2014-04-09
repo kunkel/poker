@@ -7,7 +7,7 @@ body {
 }
 
 h7 {
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .canvas {
@@ -20,7 +20,7 @@ h7 {
 	left: 18%;
 	width: 64%;
 	height: 64%;
-	background-color: #ccc;
+	background-color: rgb(21, 157, 96);
 	border-radius: 50%;
 }
 
@@ -30,16 +30,12 @@ h7 {
 
 .bottomaligned {
 	position: absolute;
-	bottom: 0px;
+	bottom: 5px;
 	width:100%;
 }
 
 .form-control {
 	height: 30px;
-}
-
-.chatbox {
-	margin-bottom: 5px;
 }
 
 .chatbox-area {
@@ -83,20 +79,17 @@ h7 {
 	margin-left: 2%;
 }
 
-.navbtns {
-	height: 15%;
-}
-
 .input-group-addon {
 	padding: 1px 0px;
 }
 
-.checkoptions {
-	margin-top: 22%;
-}
-
-.actionbtns {
-	margin-bottom: 5px;
+.automator {
+	position: absolute;
+	top: 85%;
+	right: 40%;
+	width: 20%;
+	background-color: #ccc;
+	padding-left: 1%;
 }
 
 #pos1 {
@@ -138,6 +131,11 @@ h7 {
 
 
 @media(max-width:767px) {
+	
+	h7 {
+		font-size: 10px;
+	}
+	
 	.btn-sm {
 	    padding: 1px 5px;
 	    font-size: 10px;
