@@ -86,7 +86,7 @@ body {
 	text-align: center;
 	padding: 1px 1px 1px 1px;
 	color: rgb(66, 84, 105);
-	margin: 60px auto;;
+	margin: 80px auto 0px;
 	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -134,10 +134,89 @@ body {
 	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
+.card-back {
+	float: left;
+	margin-left: 5px;
+	width: 30px;
+	height: 45px;
+	background-color: rgb(0, 192, 153);
+}
+
+.dealer-button {
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgb(239, 243, 246);
+	color: rgb(66, 84, 105);
+	text-align: center;
+}
+
+.hand {
+	position: absolute;
+	width: 180px;
+	height: 120px;
+	margin-left: 285px;
+	margin-top: 205px;
+}
+
+.board {
+	position: absolute;
+	width: 450px;
+	height: 120px;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+.card-board {
+	width: 80px;
+	height: 120px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+
+.card-board i {
+	font-size: 35px;
+}
+
+.card-board h6 {
+	font-size: 50px;
+}
+
+.card-spade {
+	color: rgb(52, 58, 67);
+}
+
+.card-heart {
+	color: rgb(255, 87, 59);
+}
+
+.card-club {
+	color: rgb(65, 158, 19);
+}
+
+.card-diamond {
+	color: rgb(107, 74, 236);
+}
+
 #pos1 {
 	position: absolute;
 	margin-top: 490px;
 	margin-left: 375px;
+}
+
+#pos1-status {
+	position: absolute;
+	width: 100px;
+	margin-top: 290px;
+	margin-left: 470px;
 }
 
 #pos2 {
@@ -146,10 +225,24 @@ body {
 	margin-left: 15px;
 }
 
+#pos2-status {
+	position: absolute;
+	width: 100px;
+	margin-top: 195px;
+	margin-left: 130px;
+}
+
 #pos3 {
 	position: absolute;
 	margin-top: 150px;
 	margin-left: 15px;
+}
+
+#pos3-status {
+	position: absolute;
+	width: 100px;
+	margin-top: 0px;
+	margin-left: 130px;
 }
 
 #pos4 {
@@ -158,16 +251,37 @@ body {
 	margin-left: 375px;
 }
 
+#pos4-status {
+	position: absolute;
+	width: 100px;
+	margin-top: -75px;
+	margin-left: 380px;
+}
+
 #pos5 {
 	position: absolute;
 	margin-top: 150px;
 	margin-left: 735px;
 }
 
+#pos5-status {
+	position: absolute;
+	width: 100px;
+	margin-top: 0px;
+	margin-left: 530px;
+}
+
 #pos6 {
 	position: absolute;
 	margin-top: 350px;
 	margin-left: 735px;
+}
+
+#pos6-status {
+	position: absolute;
+	width: 100px;
+	margin-top: 195px;
+	margin-left: 530px;
 }
 
 
