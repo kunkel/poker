@@ -1,0 +1,273 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.gradient {
+	background-image:
+		linear-gradient(
+			to top right,
+			rgb(36, 57, 76), rgb(59, 84, 107)
+		);
+}
+
+.bottom-align {
+	position: absolute;
+	bottom: 5px;
+	width:100%;
+}
+
+.btn {
+	border: 0px solid;
+	border-radius: 20px;
+	background-color: rgb(239, 243, 246);
+	font-size: 15px;
+	text-align: center;
+	padding: 1px 5px 1px 5px;
+	color: rgb(66, 84, 105);
+	margin-left: 10px;
+	margin-bottom: 15px;
+	float: right;
+	
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: rgb(130, 151, 176);
+	text-decoration: none;
+}
+
+.btn-extend {
+	width: 100%;
+}
+
+.form-control {
+	height: 23px;
+}
+
+.chatbox {
+	height: 100px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+.table {
+	margin: -100px auto;
+	width: 950px;
+	height: 600px;
+}
+
+.table-border {
+	position: absolute;
+	margin: 50px 75px;
+	width: 800px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: rgb(0, 192, 153);
+	box-shadow: 50px 50px 20px rgba(0, 0, 0, 0.3);
+}
+
+.table-inner {
+	position: absolute;
+	margin: 25px 25px;
+	width: 750px;
+	height: 450px;
+	border-radius: 50%;
+	background-color: rgb(0, 131, 97);
+}
+
+.pot {
+	width: 100px;
+	border-radius: 20px;
+	background-color: rgb(239, 243, 246);
+	text-align: center;
+	padding: 1px 1px 1px 1px;
+	color: rgb(66, 84, 105);
+	margin: 60px auto;;
+	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.player {
+	height: 100px;
+	width: 200px;
+	margin-top: 50px;
+}
+
+.player-pic {
+	overflow: hidden;
+	float: left;
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	background-color: rgb(66, 84, 105);
+	margin-top: 3px;
+	text-align: center;
+	padding-top: 17px;
+	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.player-pic i {
+	color: rgb(130, 151, 176);
+	font-size: 50px;
+}
+
+.player-info {
+	overflow: hidden;
+	float: right;
+	height: 100px;
+	width: 100px;
+	padding-top:15px;
+}
+
+.infobox {
+	width: 80px;
+	border-radius: 20px;
+	background-color: rgb(239, 243, 246);
+	text-align: center;
+	padding: 1px 1px 1px 1px;
+	color: rgb(66, 84, 105);
+	margin-left: 10px;
+	margin-bottom: 15px;
+	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+#pos1 {
+	position: absolute;
+	margin-top: 490px;
+	margin-left: 375px;
+}
+
+#pos2 {
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 15px;
+}
+
+#pos3 {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 15px;
+}
+
+#pos4 {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 375px;
+}
+
+#pos5 {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 735px;
+}
+
+#pos6 {
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 735px;
+}
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?e2iag5');
+	src:url('fonts/icomoon.eot?#iefixe2iag5') format('embedded-opentype'),
+		url('fonts/icomoon.woff?e2iag5') format('woff'),
+		url('fonts/icomoon.ttf?e2iag5') format('truetype'),
+		url('fonts/icomoon.svg?e2iag5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+	content: "\e616";
+}
+.icon-user-add:before {
+	content: "\e617";
+}
+
+.icon-spades:before {
+	content: "\e600";
+}
+.icon-clubs:before {
+	content: "\e601";
+}
+
+.icon-hearts:before {
+	content: "\e609";
+}
+
+.icon-diamonds:before {
+	content: "\e602";
+}
+.icon-clock:before {
+	content: "\e603";
+}
+.icon-undo:before {
+	content: "\e604";
+}
+.icon-bubble:before {
+	content: "\e605";
+}
+.icon-cog:before {
+	content: "\e606";
+}
+.icon-stats:before {
+	content: "\e607";
+}
+.icon-list:before {
+	content: "\e608";
+}
+.icon-close:before {
+	content: "\e60a";
+}
+.icon-checkmark:before {
+	content: "\e60b";
+}
+.icon-minus:before {
+	content: "\e60c";
+}
+.icon-plus:before {
+	content: "\e60d";
+}
+.icon-enter:before {
+	content: "\e60e";
+}
+.icon-backward:before {
+	content: "\e60f";
+}
+.icon-forward:before {
+	content: "\e610";
+}
+.icon-first:before {
+	content: "\e611";
+}
+.icon-last:before {
+	content: "\e612";
+}
+.icon-volume-high:before {
+	content: "\e613";
+}
+.icon-volume-mute:before {
+	content: "\e614";
+}
+.icon-arrow-up:before {
+	content: "\e615";
+}
