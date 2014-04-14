@@ -55,11 +55,11 @@ h7 {
 	background-color: rgb(239, 243, 246);
 	font-size: 15px;
 	text-align: center;
-	padding: 1px 1px 1px 1px;
+	padding: 1px 5px 1px 5px;
 	color: rgb(66, 84, 105);
 	margin-left: 10px;
 	margin-bottom: 15px;
-	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+	float: right;
 	
 }
 
@@ -91,18 +91,9 @@ h7 {
 	border-color: #ccc;
 }
 
-.btnmargin {
-	margin-bottom: 15px;
-}
-
 .input-group-addon {
 	background-color: #fff;
 	border-color: #fff;
-}
-
-.pullleft {
-	position: absolute;
-	left: 5px;
 }
 
 .player {
@@ -153,13 +144,15 @@ h7 {
 	padding: 1px 0px;
 }
 
-.automator {
-	position: absolute;
-	top: 85%;
-	right: 40%;
+.board {
+	width: 65%;
+	margin: 0px auto;
+	margin-top: 7%;
+}
+
+.boardalign {
 	width: 20%;
-	background-color: rgb(130, 151, 176);
-	padding-left: 1%;
+	float: left;
 }
 
 .cardboard {
@@ -169,6 +162,7 @@ h7 {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin: 0px auto;
 }
 
 .cardboard i {
@@ -191,10 +185,55 @@ h7 {
 	color: rgb(107, 74, 236);
 }
 
+.pot {
+	margin: 0px auto;
+	margin-top: 10%;
+}
+
+.handstatus {
+	width: 100px;
+}
+
+.cardpos {
+	width: 40%;
+	float: left;
+}
+
+.dealpos {
+	width: 20%;
+	float: left;
+	margin-top: 10px;
+}
+
+.dealerbutton {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgb(239, 243, 246);
+	color: rgb(66, 84, 105);
+	text-align: center;
+	margin: 0px auto;
+}
+
+.cardback {
+	width: 30px;
+	height: 45px;
+	background-color: rgb(0, 192, 153);
+	margin: 0px auto;
+}
+
 #pos1 {
 	position: absolute;
 	top: 65%;
 	right: 42%;
+}
+
+#pos1-status {
+
+	position: absolute;
+	top: 65%;
+	right: 42%;
+	
 }
 
 #pos2 {
@@ -203,10 +242,22 @@ h7 {
 	left: 10%;
 }
 
+#pos2-status {
+	position: absolute;
+	top:45%;
+	left: 20%;
+}
+
 #pos3 {
 	position: absolute;
 	top: 15%;
-	left: 15%;
+	left: 10%;
+}
+
+#pos3-status {
+	position: absolute;
+	top: 15%;
+	left: 20%;
 }
 
 #pos4 {
@@ -215,16 +266,34 @@ h7 {
 	right: 42%;
 }
 
+#pos4-status {
+	position: absolute;
+	top: 12%;
+	right: 42%;
+}
+
 #pos5 {
 	position: absolute;
 	top: 15%;
-	right: 15%;
+	right: 10%;
+}
+
+#pos5-status {
+	position: absolute;
+	top: 15%;
+	right: 20%;
 }
 
 #pos6 {
 	position: absolute;
 	top: 45%;
 	right: 10%;
+}
+
+#pos6-status {
+	position: absolute;
+	top: 45%;
+	right: 20%;
 }
 
 
