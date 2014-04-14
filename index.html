@@ -12,220 +12,100 @@
 	</head>
 	
 	<body class="gradient">
+		
 		<div class="container-fluid">
+			
 			<div class="row">
 				<div class="col-xs-2">
-					<button type="button" class="btn btn-sm btn-default btnextend">Get Chips</button>
-					<button type="button" class="btn btn-sm btn-default btnextend">Last Hand</button>
-					<button type="button" class="btn btn-sm btn-default btnextend">Sit Out</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Get Chips</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Last Hand</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Sit Out</button>
 				</div>
 				<div class="col-xs-2 col-xs-offset-8">
-					<button type="button" class="btn btn-sm btn-default btnextend">Options</button>
-					<button type="button" class="btn btn-sm btn-default btnextend">View Lobby</button>
-					<button type="button" class="btn btn-sm btn-default btnextend">Statistics</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Options</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">View Lobby</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Statistics</button>
 				</div>
 			</div>
-			<div class="bottomaligned">
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="chatbox">
-							<div class="input-group">
-								<input type="text" class="form-control btnmargin">
-								<span class="input-group-btn">
-									<button class="btn btn-default btn-sm btnmargin" type="button">Submit</button>
-								</span>
-							</div>
-							<div class="chatbox-area"></div>
-						</div>
-					</div>
-					<div class="col-xs-2 col-xs-offset-5">
-						<div class="actionbtns">
-							<div class="input-group">
-								<input type="text" class="form-control btnmargin">
-								<span class="input-group-btn">
-									<button class="btn btn-default btn-sm btnmargin" type="button">Bet</button>
-								</span>
-							</div>
-							<button type="button" class="btn btn-sm btn-default btnextend btnmargin">Call</button>
-							<button type="button" class="btn btn-sm btn-default btnextend ">Check/Fold</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="tableContainer">
-				<div class="tableborder"></div>
-				<div class="table">
-					<div class="pot infobox">
-						#,###,##
-					</div>
-					<div class="board">
-						<div class="boardalign">
-							<div class="cardspade cardboard">
-								<i class="icon-spades"></i>
-								<h6>A</h6>
-							</div>
-						</div>
-						<div class="boardalign">
-							<div class="cardheart cardboard">
-								<i class="icon-hearts"></i>
-								<h6>2</h6>
-							</div>
-						</div>
-						<div class="boardalign">
-							<div class="cardclub cardboard">
-								<i class="icon-clubs"></i>
-								<h6>3</h6>
-							</div>
-						</div>
-						<div class="boardalign">
-							<div class="carddiamond cardboard">
-								<i class="icon-diamonds"></i>
-								<h6>4</h6>
-							</div>
-						</div>
-						<div class="boardalign">
-							<div class="cardspade cardboard">
-								<i class="icon-spades"></i>
-								<h6>5</h6>
-							</div>
+			
+			<div class="table">
+				<div class="table-border">
+					<div class="table-inner">
+						<div class="pot">
+							#,###,##
 						</div>
 					</div>
 				</div>
 				<div class="player" id="pos1">
-					<div class="profile">
+					<div class="player-pic">
 						<i class="icon-user-add"></i>
 					</div>
-					<div class="playerinfo">
+					<div class="player-info">
 						<div class="infobox">
 							Username
 						</div>
 						<div class="infobox">
 							#,###.##
 						</div>
-					</div>
-				</div>
-				<div class="handstatus" id="pos1-status">
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="dealpos">
-						<div class="dealerbutton">
-							D
-						</div>		
 					</div>
 				</div>
 				<div class="player" id="pos2">
-					<div class="profile">
+					<div class="player-pic">
 						<i class="icon-user-add"></i>
 					</div>
-					<div class="playerinfo">
+					<div class="player-info">
 						<div class="infobox">
 							Username
 						</div>
 						<div class="infobox">
 							#,###.##
 						</div>
-					</div>
-				</div>
-				<div class="handstatus" id="pos2-status">
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="dealpos">
-						<div class="dealerbutton">
-							D
-						</div>		
 					</div>
 				</div>
 				<div class="player" id="pos3">
-					<div class="profile">
+					<div class="player-pic">
 						<i class="icon-user-add"></i>
 					</div>
-					<div class="playerinfo">
+					<div class="player-info">
 						<div class="infobox">
 							Username
 						</div>
 						<div class="infobox">
 							#,###.##
 						</div>
-					</div>
-				</div>
-				<div class="handstatus" id="pos3-status">
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="dealpos">
-						<div class="dealerbutton">
-							D
-						</div>		
 					</div>
 				</div>
 				<div class="player" id="pos4">
-					<div class="profile">
+					<div class="player-pic">
 						<i class="icon-user-add"></i>
 					</div>
-					<div class="playerinfo">
+					<div class="player-info">
 						<div class="infobox">
 							Username
 						</div>
 						<div class="infobox">
 							#,###.##
 						</div>
-					</div>
-				</div>
-				<div class="handstatus" id="pos4-status">
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="dealpos">
-						<div class="dealerbutton">
-							D
-						</div>		
 					</div>
 				</div>
 				<div class="player" id="pos5">
-					<div class="profile">
+					<div class="player-pic">
 						<i class="icon-user-add"></i>
 					</div>
-					<div class="playerinfo">
+					<div class="player-info">
 						<div class="infobox">
 							Username
 						</div>
 						<div class="infobox">
 							#,###.##
 						</div>
-					</div>
-				</div>
-				<div class="handstatus" id="pos5-status">
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="dealpos">
-						<div class="dealerbutton">
-							D
-						</div>		
 					</div>
 				</div>
 				<div class="player" id="pos6">
-					<div class="profile">
+					<div class="player-pic">
 						<i class="icon-user-add"></i>
 					</div>
-					<div class="playerinfo">
+					<div class="player-info">
 						<div class="infobox">
 							Username
 						</div>
@@ -234,20 +114,31 @@
 						</div>
 					</div>
 				</div>
-				<div class="handstatus" id="pos6-status">
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="cardpos">
-						<div class="cardback"></div>
-					</div>
-					<div class="dealpos">
-						<div class="dealerbutton">
-							D
-						</div>		
-					</div>
+			</div>
+			
+			<div class="row bottom-align">
+				<div class="col-xs-4">
+					<div class="input-group">
+				    	<input type="text" class="form-control">
+				    		<span class="input-group-btn">
+				        		<button class="btn btn-default" type="button">Submit</button>
+				     	    </span>
+			    	</div>
+					<div class="chatbox"></div>
+				</div>
+				<div class="col-xs-2 col-xs-offset-6">
+					<div class="input-group">
+				    	<input type="text" class="form-control">
+				    		<span class="input-group-btn">
+				        		<button class="btn btn-default" type="button">Bet</button>
+				     	    </span>
+			    	</div>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Call</button>
+					<button type="button" class="btn btn-sm btn-default btn-extend">Check/Fold</button>
 				</div>
 			</div>
+		
 		</div>
 	</body>
+	
 </html>
