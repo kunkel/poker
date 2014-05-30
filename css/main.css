@@ -10,7 +10,7 @@ body {
 	background-image:
 		linear-gradient(
 			to top right,
-			rgb(36, 57, 76), rgb(59, 84, 107)
+			rgb(36, 57, 76), rgb(59, 84, 127)
 		);
 }
 
@@ -86,7 +86,6 @@ body {
 	padding: 1px 1px 1px 1px;
 	color: rgb(66, 84, 105);
 	margin: 80px auto 0px;
-	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
 .player {
@@ -105,7 +104,7 @@ body {
 	margin-top: 3px;
 	text-align: center;
 	padding-top: 17px;
-	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .player-pic i {
@@ -130,7 +129,7 @@ body {
 	color: rgb(66, 84, 105);
 	margin-left: 10px;
 	margin-bottom: 15px;
-	box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .card-back {
@@ -327,7 +326,7 @@ body {
 		margin-top: 3px;
 		text-align: center;
 		padding-top: 13px;
-		box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+		box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
 	}
 
 	.player-pic i {
@@ -352,7 +351,7 @@ body {
 		color: rgb(66, 84, 105);
 		margin-left: 10px;
 		margin-bottom: 15px;
-		box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+		box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
 		font-size: 11px;
 	}
 	
@@ -523,6 +522,50 @@ body {
 		background-color: rgb(0, 131, 97);
 	}
 	
+	.card-back {
+		float: left;
+		margin-left: 5px;
+		width: 20px;
+		height: 30px;
+		background-color: rgb(0, 192, 153);
+	}
+	
+	.hand {
+		position: absolute;
+		width: 120px;
+		height: 75px;
+		margin-left: 200px;
+		margin-top: 125px;
+	}
+
+	.board {
+		position: absolute;
+		width: 300px;
+		height: 75px;
+		margin-left: 110px;
+		margin-top: 20px;
+	}
+
+	.card-board {
+		width: 50px;
+		height: 75px;
+		background-color: rgb(255, 255, 255);
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 4px;
+		margin-left: 5px;
+		margin-right: 5px;
+		float: left;
+	}
+
+	.card-board i {
+		font-size: 22px;
+	}
+
+	.card-board h6 {
+		font-size: 28px;
+	}
+	
 	#pos1 {
 		position: absolute;
 		margin-top: 335px;
@@ -532,34 +575,34 @@ body {
 	#pos1-status {
 		position: absolute;
 		width: 100px;
-		margin-top: 250px;
-		margin-left: 400px;
+		margin-top: 150px;
+		margin-left: 350px;
 	}
 
 	#pos2 {
 		position: absolute;
-		margin-top: 300px;
+		margin-top: 250px;
 		margin-left: -20px;
 	}
 
 	#pos2-status {
 		position: absolute;
 		width: 100px;
-		margin-top: 175px;
-		margin-left: 90px;
+		margin-top: 130px;
+		margin-left: 70px;
 	}
 
 	#pos3 {
 		position: absolute;
-		margin-top: 100px;
+		margin-top: 65px;
 		margin-left: -20px;
 	}
 
 	#pos3-status {
 		position: absolute;
 		width: 100px;
-		margin-top: -25px;
-		margin-left: 90px;
+		margin-top: -50px;
+		margin-left: 70px;
 	}
 
 	#pos4 {
@@ -572,33 +615,33 @@ body {
 		position: absolute;
 		width: 100px;
 		margin-top: -75px;
-		margin-left: 350px;
+		margin-left: 225px;
 	}
 
 	#pos5 {
 		position: absolute;
-		margin-top: 100px;
-		margin-left: 650px;
+		margin-top: 65px;
+		margin-left: 520px;
 	}
 
 	#pos5-status {
 		position: absolute;
 		width: 100px;
-		margin-top: -25px;
-		margin-left: 480px;
+		margin-top: -50px;
+		margin-left: 375px;
 	}
 
 	#pos6 {
 		position: absolute;
-		margin-top: 300px;
-		margin-left: 650px;
+		margin-top: 250px;
+		margin-left: 520px;
 	}
 
 	#pos6-status {
 		position: absolute;
 		width: 100px;
-		margin-top: 175px;
-		margin-left: 480px;
+		margin-top: 130px;
+		margin-left: 375px;
 	}
 	
 }
